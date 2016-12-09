@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">MapExample</string>
+
+<string name="welcome">Welcome to UDiscover!</string>
+<string name="action_settings">Settings</string>
+<string name="get_tour">Get Tour</string>
+<string name="get_directions">Get Directions</string>
+<string name="get_information">Get Information</string>
+<string name="title_activity_maps">Map</string>
+
+<string name="tours_welcome">Please choose a type of tour.</string>
+<string name="tours_class">Class</string>
+<string name="tours_residential">Residential</string>
+<string name="tours_art">Art</string>
+<string name="tours_weekend">Weekend</string>
+<string name="directions_welcome">Please either type in and choose a destination or choose it from the drop-down.</string>
+<string name="spinner_prompt">Choose a destination.</string>
+
+<string-array name="locations_array">
+
+    <item>201 9th Ave.</item>
+    <item>30-32 6th Ave.</item>
+    <item>424-426 Main St.</item>
+    <item>444 Main St.</item>
+    <item>624 Main St.</item>
+    <item>732 Main St.</item>
+    <item>777 Main St.</item>
+    <item>942 Main St.</item>
+    <item>944 Main St.</item>
+    <item>Barbershop (476 Main St.)</item>
+    <item>Beardwood Hall</item>
+    <item>Berman Art Museum</item>
+    <item>Bomberger Hall</item>
+    <item>Bookstore</item>
+    <item>Brodbeck Hall</item>
+    <item>Campus Safety</item>
+    <item>Clamer Hall</item>
+    <item>Cloake House</item>
+    <item>Commonwealth Hall</item>
+    <item>Corson Hall</item>
+    <item>Curtis Hall</item>
+    <item>Duryea Hall</item>
+    <item>E.F. Snell Hockey Field</item>
+    <item>Elliot House</item>
+    <item>Facilities Service</item>
+    <item>Fetterolf House</item>
+    <item>Floy Lewis Bake Center/Helfferich Gym</item>
+    <item>Hillel House</item>
+    <item>Hobson Hall</item>
+    <item>Hunsberger Practice Field/Organic Farm</item>
+    <item>Isenberg Hall</item>
+    <item>Kaleidoscope</item>
+    <item>Keigwin Hall</item>
+    <item>Lynnewood Hall</item>
+    <item>Maples Hall</item>
+    <item>Musser Hall</item>
+    <item>Myrin Library</item>
+    <item>New Hall</item>
+    <item>North Hall</item>
+    <item>Olevian Hall</item>
+    <item>Olin Hall</item>
+    <item>Omwake Hall</item>
+    <item>Paisley Hall</item>
+    <item>Patterson Field</item>
+    <item>Pfahler Hall</item>
+    <item>Practice Field North</item>
+    <item>Practice Field South</item>
+    <item>Reimert Hall</item>
+    <item>Richter Hall</item>
+    <item>Ritter Hall</item>
+    <item>Schaff Hall</item>
+    <item>Shreiner Hall</item>
+    <item>Snell Softball Field</item>
+    <item>Sprankle Hall</item>
+    <item>Stauffer Hall</item>
+    <item>Sturgis Hall</item>
+    <item>Tennis Court</item>
+    <item>Thomas Baseball Field</item>
+    <item>Thomas Hall</item>
+    <item>Todd Hall</item>
+    <item>Unity House</item>
+    <item>Wellness Center</item>
+    <item>Wicks House</item>
+    <item>Wilkes Soccer Field</item>
+    <item>Wilkinson Hall</item>
+    <item>Wismer Center</item>
+    <item>Zwingli Hall</item>
+
+</string-array>
+</resources>

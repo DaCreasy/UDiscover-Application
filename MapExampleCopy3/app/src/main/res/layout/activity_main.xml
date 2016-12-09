@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:gravity="top|center_vertical|center_horizontal|center"
+    android:orientation="vertical"
+    android:background="#ffc469"
+    tools:context="com.example.dacreasy.udiscover.MainActivity" >
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="50dp"
+   		android:textSize="20dp"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:text="@string/welcome"
+        android:textColor="#000"
+        android:textStyle="bold" />
+     
+    <Button
+        android:id="@+id/button_main_tour"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="@string/get_tour"
+        android:background="#f00"
+        android:onClick="onTourClicked"/>
+
+    <Button
+        android:id="@+id/button_main_directions"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+		android:layout_margin="20dp"
+        android:text="@string/get_directions"
+        android:background="#f87531"
+        android:onClick="onDirectionsClicked"/>
+    
+        <Button
+        android:id="@+id/button_main_information"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+		android:layout_margin="20dp"
+        android:text="@string/get_information"
+        android:background="#ffA500"
+        android:onClick="onInformationClicked"/>
+
+</LinearLayout>

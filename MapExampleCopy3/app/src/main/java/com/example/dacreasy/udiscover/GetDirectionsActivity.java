@@ -12,24 +12,29 @@ import android.widget.AutoCompleteTextView;
 import android.widget.Spinner;
 
 /**
- * Prompts the user to choose a destination location.
+ * This activity prompts the user to choose a destination location from a list of locations on or close to the Ursinus College campus.
  */
 
 public class GetDirectionsActivity extends Activity {
 
-    private boolean firstSpinnerSelection = true; //have to set it here since there is no method that runs only once
-    //List of strings to display in the View list.
+    private boolean firstSpinnerSelection = true; //I have to set it here since there is no method that runs only once
 
+    /** 
+    * Creates the search bar for people who know the name of their destination and a drop down list of locations for people who might not.
+    */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_directions);
-        String[] locations = getResources().getStringArray(R.array.locations_array);
+        String[] locations = getResources().getStringArray(R.array.locations_array); //Alphabetical list of locations (from strings.xml)
         setUpSearchBar(locations);
         setUpChoiceList(locations);
 
     }
 
+    /**
+    * Displays the search bar a user can type a destination in.
+    */
     public void setUpSearchBar(String[] locations)
     {
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
@@ -54,6 +59,9 @@ public class GetDirectionsActivity extends Activity {
         });
     }
 
+    /**
+    * Displays the drop down list of locations (a Spinner) that a user can choose from.
+    */
     private void setUpChoiceList(String[] locations)
     {
         final Spinner spinner = (Spinner) findViewById(R.id.destination_spinner);
@@ -67,8 +75,8 @@ public class GetDirectionsActivity extends Activity {
                 if (firstSpinnerSelection)
                 {
                     firstSpinnerSelection = false;
-                    return; //this is a bug in android where when you open an activity with a Spinner, it automatically selects
-                    //the first item in a Spinner.
+                    return; //This is a bug in android where when you open an activity with a Spinner, it automatically selects
+                            //the first item in a Spinner.
                 }
                 String destination = (String) spinner.getSelectedItem();
                 Intent intent = new Intent(getBaseContext(), MapsActivity.class);
